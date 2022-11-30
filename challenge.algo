@@ -1,0 +1,15 @@
+ALGORITHM challenge
+VAR
+    a: FLOAT;
+    sum : FLOAT := 0;
+    tab : ARRAY_OF FLOAT[5];
+BEGIN
+FOR i FROM 0 TO tab.length-1 STEP   DO
+    Write("enter a ");
+    Read (a);
+    tab.push(a);
+    sum:=sum+a;
+END_FOR
+Write("la somme du tableau est:",sum );
+
+END
